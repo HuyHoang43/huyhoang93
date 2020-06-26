@@ -10,8 +10,8 @@ int main(){
 		scanf("%d",&ary[i]);
 	}
 	int x=0;
-	for(int i=n-1;i>=0;i++){
-		if(ary[i] %2 !=0){
+	for( int i=n-1;i>=0;i++ ){
+		if( ary[i] %2 !=0 ){
 			x = ary[i];
 			break;
 		}
