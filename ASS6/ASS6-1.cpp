@@ -10,13 +10,13 @@ int main(){
 		scanf("%d",&ary[i]);
 	}
 	int x=0;
-	for(int i=n-1;i>=0;i++){
+	for(int i=n-1;i>=0;i--){
 		if(ary[i] %2 !=0){
 			x = ary[i];
 			break;
 		}
 	}
-	if(x%2==0){
+	if(x%2 !=0){
 		printf("Mang ko he co so le!");
 	}else{
 		printf("So le cuoi cung: %d",x);
