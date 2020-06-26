@@ -9,11 +9,11 @@ int main(){
         printf("canh so 3: ");
         scanf("%f", &c);
         if((a*a<b*b+c*c) && (b*b<a*a+c*c) && (c*c<b*b+a*a)){
-                printf("Day la ba canh cua tam giac");
+                printf("Day la ba canh cua tam giac \n");
                 p = (a+b+c)/2;
-                printf("chu vi cua tam giac la :%f", p);
+                printf("chu vi cua tam giac la :%f\n", p);
                 s = sqrt(p*(p-a)*(p-b)*(p-c));
-                printf("dien tich cua tam giac la :%f", s);
+                printf("dien tich cua tam giac la :%f\n", s);
         }else{
                 printf("Day khong phai la ba canh cua tam giac");
         }

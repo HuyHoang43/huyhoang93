@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+
 char kiemTra(char s[100], char n){
     int i, count = 0;
     for(i=0;i<strlen(s);i++){

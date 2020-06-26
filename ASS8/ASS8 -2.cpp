@@ -10,18 +10,5 @@ int main(){
 	for (int i=0;i<n;i++){
 		printf("nhap pt thi %d: \n",i);
 		scanf("%d",p+i);
-	}
-	int count = 0, x = 0;
-	for(int i=0;i<n;i++){
-		if((*p+i)>0){
-			count++;
-			if(count>x){
-				x = count;
-			}
-		}else{
-			count = 0;
-		}
-	}
-	printf("so luong so duong lien tiep nhieu nhat: %d",x);
-}
-
+	
+	// bai nay e khong hieu thuat toan logic de lam, thay cho e goi y voi
